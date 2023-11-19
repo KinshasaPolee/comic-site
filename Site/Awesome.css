@@ -1,0 +1,142 @@
+/* About Me section w/ all it's containers */
+.div {
+  justify-content: center;
+  align-items: center;
+  background-color: #03045e;
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px;
+}
+@media (max-width: 991px) {
+  .div {
+    padding: 0 20px;
+  }
+}
+.div-2 {
+  border: 1px solid var(--yellow, #d5c110);
+  display: flex;
+  width: 100%;
+  max-width: 1136px;
+  flex-direction: column;
+  padding: 0 10px 10px;
+}
+@media (max-width: 991px) {
+  .div-2 {
+    max-width: 100%;
+  }
+}
+.div-3 {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 71px;
+}
+@media (max-width: 991px) {
+  .div-3 {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.div-4 {
+  color: var(--red, #e8010f);
+  text-transform: uppercase;
+  margin-top: 16px;
+  white-space: nowrap;
+  font: 400 50px/70px Jockey One, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-4 {
+    font-size: 40px;
+    line-height: 62px;
+    white-space: initial;
+  }
+}
+.div-5 {
+  color: #000;
+  text-transform: uppercase;
+  border: 1px solid var(--red, #e8010f);
+  background-color: #fff;
+  align-self: stretch;
+  align-items: center;
+  margin: 19px 0 12px;
+  padding: 81px 20px 66px;
+  font: 400 16px/22px Jockey One, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-5 {
+    max-width: 100%;
+  }
+}
+.div-6 {
+  border: 1px solid var(--red, #e8010f);
+  display: flex;
+  margin-top: 4px;
+  width: 100%;
+  max-width: 1136px;
+  flex-direction: column;
+  padding: 20px 20px 0;
+}
+@media (max-width: 991px) {
+  .div-6 {
+    max-width: 100%;
+  }
+}
+.div-7 {
+  color: var(--red, #e8010f);
+  text-transform: uppercase;
+  z-index: 1;
+  white-space: nowrap;
+  background-color: #d9d9d9;
+  align-items: center;
+  padding: -10px 20px 83px;
+  font: 400 50px/70px Jockey One, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-7 {
+    font-size: 40px;
+    line-height: 62px;
+    white-space: initial;
+    max-width: 100%;
+  }
+}
+/* End of About Me section w/ all it's containers */
+ /* survey form */
+ input[type="checkbox"] {
+    accent-color: yellow;
+   }
+
+   #submit-btn {
+     padding: 10px 15px;
+     background-color: red;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+   }
+
+   #submit-btn:hover {
+     background-color: rgb(206, 206, 19);
+   }
+.btn-container {
+   padding-top: -10px;
+   padding-left: 50%;
+   display: flex;
+   justify-content: space-evenly;
+   align-content: space-evenly;
+   flex-direction: row;
+ }
+.spacing {
+display: flex;
+align-items: space-evenly;
+justify-content: space-evenly;
+}
+.marvel-btn {
+display: flex;
+align-items: space-evenly;
+justify-content: space-evenly;
+}
+/* end of survey form */
+.tony-stark {
+   
+}
