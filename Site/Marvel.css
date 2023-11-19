@@ -1,0 +1,172 @@
+        .div {
+          justify-content: center;
+          background-color: #fff;
+          display: flex;
+          flex-direction: column;
+        }
+        .div-2 {
+          background-color: #d9d9d9;
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          align-items: center;
+          padding: 50px 20px 2px;
+        }
+        @media (max-width: 991px) {
+          .div-2 {
+            max-width: 100%;
+          }
+        }
+        .div-3 {
+          display: flex;
+          margin-top: 5px;
+          width: 100%;
+          max-width: 1236px;
+          flex-direction: column;
+          align-items: center;
+        }
+        @media (max-width: 991px) {
+          .div-3 {
+            max-width: 100%;
+          }
+        }
+
+        .div-4 {
+          color: var(--yellow, #d5c110);
+          text-shadow: 0px 4px 4px rgba(252, 24, 24, 0.75);
+          text-transform: uppercase;
+          white-space: nowrap;
+          font: 400 70px/98px Jockey One, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-4 {
+            font-size: 40px;
+            line-height: 62px;
+            white-space: initial;
+          }
+        }
+        .div-5 {
+          align-self: stretch;
+          margin-top: 39px;
+        }
+        @media (max-width: 991px) {
+          .div-5 {
+            max-width: 100%;
+          }
+        }
+        .div-6 {
+          gap: 20px;
+          display: flex;
+        }
+        @media (max-width: 991px) {
+          .div-6 {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0px;
+          }
+        }
+        .column {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 55%;
+          margin-left: 0px;
+        }
+        @media (max-width: 991px) {
+          .column {
+            width: 100%;
+          }
+        }
+        .div-7 {
+          background-color: #fff;
+          display: flex;
+          width: 100%;
+          height: 830px;
+          flex-direction: column;
+          flex: 1;
+          margin: 0 auto;
+        }
+        @media (max-width: 991px) {
+          .div-7 {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+        }
+        .column-2 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 45%;
+          margin-left: 20px;
+        }
+        @media (max-width: 991px) {
+          .column-2 {
+            width: 100%;
+          }
+        }
+        .div-8 {
+          background-color: #fff;
+          display: flex;
+          flex-grow: 1;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          margin: 0 auto;
+          padding: 0 -710px;
+        }
+        @media (max-width: 991px) {
+          .div-8 {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+        }
+        .div-9 {
+          display: flex;
+          width: 100%;
+          max-width: 1196px;
+          justify-content: space-between;
+          gap: 20px;
+          padding: 0 20px;
+        }
+        @media (max-width: 991px) {
+          .div-9 {
+            max-width: 100%;
+            flex-wrap: wrap;
+          }
+        }
+        .div-10 {
+          color: #4f3838;
+          text-transform: uppercase;
+          text-decoration-line: underline;
+          flex-grow: 1;
+          flex-basis: auto;
+          /* font: 400 50px/70px; */
+          font-family: Jockey One, sans-serif;
+          font-size: 20px;
+          padding-top: 70px;
+        }
+        @media (max-width: 991px) {
+          .div-10 {
+            max-width: 100%;
+            font-size: 40px;
+            line-height: 62px;
+          }
+        }
+        .div-11 {
+          color: #4f3838;
+          text-transform: uppercase;
+          text-decoration-line: underline;
+          flex-grow: 1;
+          flex-basis: auto;
+          /* font: 400 50px/70px Jockey One, sans-serif; */
+          font-family: Jockey One, sans-serif;
+          font-size: 20px;
+          padding-top: 70px;
+        }
+        @media (max-width: 991px) {
+          .div-11 {
+            max-width: 100%;
+            font-size: 40px;
+            line-height: 62px;
+          }
+        }
