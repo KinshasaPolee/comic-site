@@ -47,19 +47,19 @@
             white-space: initial;
           }
         }
-        .div-5 {
+        /* .div-5 {
           align-self: stretch;
           margin-top: 39px;
-        }
+        } */
         @media (max-width: 991px) {
           .div-5 {
             max-width: 100%;
           }
         }
-        .div-6 {
+        /* .div-6 {
           gap: 20px;
           display: flex;
-        }
+        } */
         @media (max-width: 991px) {
           .div-6 {
             flex-direction: column;
