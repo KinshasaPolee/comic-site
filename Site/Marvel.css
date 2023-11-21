@@ -30,7 +30,6 @@
             max-width: 100%;
           }
         }
-
         .div-4 {
           color: var(--yellow, #d5c110);
           text-shadow: 0px 4px 4px rgba(252, 24, 24, 0.75);
@@ -47,19 +46,11 @@
             white-space: initial;
           }
         }
-        /* .div-5 {
-          align-self: stretch;
-          margin-top: 39px;
-        } */
         @media (max-width: 991px) {
           .div-5 {
             max-width: 100%;
           }
         }
-        /* .div-6 {
-          gap: 20px;
-          display: flex;
-        } */
         @media (max-width: 991px) {
           .div-6 {
             flex-direction: column;
@@ -79,7 +70,7 @@
             width: 100%;
           }
         }
-       .column-2 {
+      .column-2 {
           display: flex;
           flex-direction: column;
           line-height: normal;
@@ -156,3 +147,39 @@
             line-height: 62px;
           }
         }
+         /* survey form */
+input[type="checkbox"] {
+  accent-color: yellow;
+}
+
+#submit-btn {
+  padding: 10px 15px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: rgb(206, 206, 19);
+}
+.btn-container {
+padding-top: -10px;
+padding-left: 50%;
+display: flex;
+justify-content: space-evenly;
+align-content: space-evenly;
+flex-direction: row;
+}
+.spacing {
+display: flex;
+align-items: space-evenly;
+justify-content: space-evenly;
+}
+.marvel-btn {
+display: flex;
+align-items: space-evenly;
+justify-content: space-evenly;
+}
+/* end of survey form */
