@@ -109,30 +109,30 @@
 }
 /* End of About Me section w/ all it's containers */
  /* survey form */
- input[type="checkbox"] {
+input[type="checkbox"] {
     accent-color: yellow;
-   }
+}
 
-   #submit-btn {
-     padding: 10px 15px;
-     background-color: red;
-     color: #fff;
-     border: none;
-     border-radius: 5px;
-     cursor: pointer;
-   }
+#submit-btn {
+    padding: 10px 15px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-   #submit-btn:hover {
-     background-color: rgb(206, 206, 19);
-   }
+#submit-btn:hover {
+    background-color: rgb(206, 206, 19);
+}
 .btn-container {
-   padding-top: -10px;
-   padding-left: 50%;
-   display: flex;
-   justify-content: space-evenly;
-   align-content: space-evenly;
-   flex-direction: row;
- }
+  padding-top: -10px;
+  padding-left: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  flex-direction: row;
+}
 .spacing {
 display: flex;
 align-items: space-evenly;
