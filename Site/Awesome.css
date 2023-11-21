@@ -38,12 +38,18 @@
     padding: 0 20px;
   }
 }
+/* title */
 .div-4 {
   color: var(--red, #e8010f);
   text-transform: uppercase;
   margin-top: 16px;
   white-space: nowrap;
   font: 400 50px/70px Jockey One, sans-serif;
+  transition: font-size 0.8s ease;
+}
+.div-4:hover {
+  font-size: 80px;
+  color: #d5c110;
 }
 @media (max-width: 991px) {
   .div-4 {
@@ -52,6 +58,7 @@
     white-space: initial;
   }
 }
+ /* end of title */
 .div-5 {
   color: #000;
   text-transform: uppercase;
@@ -137,6 +144,3 @@ align-items: space-evenly;
 justify-content: space-evenly;
 }
 /* end of survey form */
-.tony-stark {
-   
-}
