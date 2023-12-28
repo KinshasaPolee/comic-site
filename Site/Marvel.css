@@ -4,6 +4,7 @@
           display: flex;
           flex-direction: column;
         }
+
         .div-2 {
           background-color: #d9d9d9;
           display: flex;
@@ -12,11 +13,13 @@
           align-items: center;
           padding: 50px 20px 2px;
         }
+
         @media (max-width: 991px) {
           .div-2 {
             max-width: 100%;
           }
         }
+
         .div-3 {
           display: flex;
           margin-top: 5px;
@@ -25,11 +28,13 @@
           flex-direction: column;
           align-items: center;
         }
+
         @media (max-width: 991px) {
           .div-3 {
             max-width: 100%;
           }
         }
+
         .div-4 {
           color: var(--yellow, #d5c110);
           text-shadow: 0px 4px 4px rgba(252, 24, 24, 0.75);
@@ -39,6 +44,7 @@
           font-size: 50px;
           font-family: Jockey One, sans-serif;
         }
+
         @media (max-width: 991px) {
           .div-4 {
             font-size: 40px;
@@ -46,11 +52,13 @@
             white-space: initial;
           }
         }
+
         @media (max-width: 991px) {
           .div-5 {
             max-width: 100%;
           }
         }
+
         @media (max-width: 991px) {
           .div-6 {
             flex-direction: column;
@@ -58,6 +66,7 @@
             gap: 0px;
           }
         }
+
         .column {
           display: flex;
           flex-direction: column;
@@ -65,12 +74,14 @@
           width: 55%;
           margin-left: 0px;
         }
+
         @media (max-width: 991px) {
           .column {
             width: 100%;
           }
         }
-      .column-2 {
+
+        .column-2 {
           display: flex;
           flex-direction: column;
           line-height: normal;
@@ -78,11 +89,13 @@
           margin-left: 20px;
           align-items: center;
         }
+
         @media (max-width: 991px) {
           .column-2 {
             width: 100%;
           }
         }
+
         .div-8 {
           background-color: #fff;
           display: flex;
@@ -93,12 +106,14 @@
           margin: 0 auto;
           padding: 0 -710px;
         }
+
         @media (max-width: 991px) {
           .div-8 {
             max-width: 100%;
             margin-top: 40px;
           }
         }
+
         .div-9 {
           display: flex;
           width: 100%;
@@ -107,12 +122,14 @@
           gap: 20px;
           padding: 0 20px;
         }
+
         @media (max-width: 991px) {
           .div-9 {
             max-width: 100%;
             flex-wrap: wrap;
           }
         }
+
         .div-10 {
           color: #4f3838;
           text-transform: uppercase;
@@ -123,6 +140,7 @@
           font-size: 20px;
           padding-top: 40px;
         }
+
         @media (max-width: 991px) {
           .div-10 {
             max-width: 100%;
@@ -130,6 +148,7 @@
             line-height: 62px;
           }
         }
+
         .div-11 {
           color: #4f3838;
           text-transform: uppercase;
@@ -140,6 +159,7 @@
           font-size: 20px;
           padding-top: 40px;
         }
+
         @media (max-width: 991px) {
           .div-11 {
             max-width: 100%;
@@ -147,39 +167,44 @@
             line-height: 62px;
           }
         }
-         /* survey form */
-input[type="checkbox"] {
-  accent-color: yellow;
-}
 
-#submit-btn {
-  padding: 10px 15px;
-  background-color: red;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
+        /* survey form */
+        input[type="checkbox"] {
+          accent-color: yellow;
+        }
 
-#submit-btn:hover {
-  background-color: rgb(206, 206, 19);
-}
-.btn-container {
-padding-top: -10px;
-padding-left: 50%;
-display: flex;
-justify-content: space-evenly;
-align-content: space-evenly;
-flex-direction: row;
-}
-.spacing {
-display: flex;
-align-items: space-evenly;
-justify-content: space-evenly;
-}
-.marvel-btn {
-display: flex;
-align-items: space-evenly;
-justify-content: space-evenly;
-}
-/* end of survey form */
+        #submit-btn {
+          padding: 10px 15px;
+          background-color: red;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        #submit-btn:hover {
+          background-color: rgb(206, 206, 19);
+        }
+
+        .btn-container {
+          padding-top: -10px;
+          padding-left: 50%;
+          display: flex;
+          justify-content: space-evenly;
+          align-content: space-evenly;
+          flex-direction: row;
+        }
+
+        .spacing {
+          display: flex;
+          align-items: space-evenly;
+          justify-content: space-evenly;
+        }
+
+        .marvel-btn {
+          display: flex;
+          align-items: space-evenly;
+          justify-content: space-evenly;
+        }
+
+        /* end of survey form */

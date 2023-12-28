@@ -1,7 +1,7 @@
 # Iron Man
 
 This is for the user who is obsessed with Marvel's character, Iron Man. Step into the wonderful world of Iron Man. Discover who he is through comics to the big screen.
-## Acknowledgements
+# Acknowledgements
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
@@ -11,6 +11,6 @@ This is for the user who is obsessed with Marvel's character, Iron Man. Step int
 
 - [Iron Man Biography, History](https://www.superherostuff.com/biographies/ironmanbiography.html)
 
-## Authors
+# Authors
 - [@KinshasaPolee](https://github.com/KinshasaPolee/comic-site)
 - [@octokatherine](https://www.github.com/octokatherine)
