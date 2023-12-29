@@ -12,5 +12,5 @@ This is for the user who is obsessed with Marvel's character, Iron Man. Step int
 - [Iron Man Biography, History](https://www.superherostuff.com/biographies/ironmanbiography.html)
 
 # Authors
-- [@KinshasaPolee](https://github.com/KinshasaPolee/comic-site)
+- [@KinshasaPolee](https://github.com/KinshasaPolee)
 - [@octokatherine](https://www.github.com/octokatherine)
